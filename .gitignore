@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Local logs
+*.log
+logs/
+
+# Large/raw datasets
+data/raw/
+data/processed/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
